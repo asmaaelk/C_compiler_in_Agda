@@ -1,0 +1,5 @@
+multi "head" [ x , y ] = x
+multi "tail" [ x , y ] = y
+multi x y = "not allowed"
+
+main args = multi args

@@ -1,0 +1,4 @@
+nomain "defined" = "in this file"
+
+it "is not" = "here"
+it "is also" = "not there"

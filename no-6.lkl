@@ -1,0 +1,4 @@
+# comments go only at the beginning of a block
+main [ x , y ] = "hi"
+# comments cannot go inside a block
+main x = "bye"

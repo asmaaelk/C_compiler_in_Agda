@@ -1,0 +1,7 @@
+f "hi" = "bye"
+f x = "wishing for hi"
+
+head [ x , y ] = x
+head x = x
+
+main args = f (head args)

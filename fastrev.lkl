@@ -1,0 +1,5 @@
+fastrevh [ x , y ] z = fastrevh y [ x , z ]
+fastrevh x z = [ x , z ]
+
+main [ x , y ] = fastrevh y x
+main x = x

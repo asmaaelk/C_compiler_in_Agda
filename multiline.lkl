@@ -1,0 +1,10 @@
+id x = x
+
+main [ x , y ] = { 
+  x
+}
+main x = {
+  id
+    (id 
+       x)
+}

@@ -1,0 +1,4 @@
+stringapp [ x , y ] = x ^ stringapp y
+stringapp x = x
+
+main args = stringapp args

@@ -1,0 +1,4 @@
+bad "hi" x = x
+bad "bye" y z = [ y , z]
+
+main args = bad args

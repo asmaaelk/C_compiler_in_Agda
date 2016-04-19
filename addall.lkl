@@ -1,0 +1,10 @@
+add [x,y] z = [x,add y z]
+add x z = z
+
+addall [x,y] = add x (addall y)
+addall x = x
+
+countdown [ x , y] = [ [x,y] , countdown y]
+countdown x = [ x , ""]
+
+main args = (addall (countdown args))

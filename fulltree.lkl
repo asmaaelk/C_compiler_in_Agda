@@ -1,0 +1,6 @@
+mkpair t = [t , t]
+
+fulltree [ x , y ] = mkpair (fulltree y)
+fulltree x = x
+
+main args = fulltree args

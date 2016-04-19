@@ -1,0 +1,4 @@
+f "a" = "to define different functions"
+g "b" = "separate the blocks of equations by a newline"
+h "c" = "this can only be checked after parsing"
+i "d" = "your grammar cannot enforce this property"

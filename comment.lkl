@@ -1,0 +1,3 @@
+# this program just returns the command line arguments
+# and this is a comment
+main args = args

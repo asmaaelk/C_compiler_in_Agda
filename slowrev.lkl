@@ -1,0 +1,10 @@
+append [ x , y ] z = [x , append y z]
+append x z = [ x , z ]
+
+concat [ x , y] = append x (concat y)
+concat x = x
+
+slowrev [ x , y] = append (slowrev y) x
+slowrev x = x
+
+main args = slowrev args
